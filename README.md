@@ -1,5 +1,5 @@
-# Hey Clone
+# Hey (Email Service) Clone
 
-### Built with Next.js & Tailwind CSS
+### Built with Next.js, Typescript, and Tailwind CSS
 
 ![rm](/public/rm.webp)
