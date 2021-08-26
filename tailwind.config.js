@@ -8,7 +8,7 @@ module.exports = {
       mid: "#212C38",
       light: "#27323E",
       bright: "#50A2FF",
-      "light-grey": "#9DFFEB",
+      "light-grey": "#EBE9E5",
       "dark-grey": "#9CA0A2",
     },
   },
