@@ -9,8 +9,8 @@ const User = () => {
         className="rounded-full"
         src="/me.jpg"
         alt="me"
-        width={50}
-        height={50}
+        width="50"
+        height="50"
       />
     </div>
   );
