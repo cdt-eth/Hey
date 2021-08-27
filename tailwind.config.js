@@ -8,8 +8,10 @@ module.exports = {
       mid: "#212C38",
       light: "#27323E",
       bright: "#3A8DFF",
-      "light-grey": "#EBE9E5",
+      "off-white": "#EBE9E5",
+      "light-grey": "#A9ADB0",
       "dark-grey": "#9CA0A2",
+      unread: "#FF8300",
     },
   },
   variants: {
