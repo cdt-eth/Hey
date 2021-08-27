@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Emails from "./components/Emails/Emails";
 import Header from "./components/Header/Header";
 
 const Home: NextPage = () => {
@@ -15,8 +16,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main>
+      <main className="bg-dark">
         <Header />
+        <Emails />
       </main>
     </div>
   );
