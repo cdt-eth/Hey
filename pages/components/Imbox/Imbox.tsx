@@ -4,7 +4,7 @@ import { FiPlus as Plus } from "react-icons/fi";
 
 const Imbox = () => {
   return (
-    <div className="lg:w-5/6  md:w-full m-auto px-10">
+    <div className="lg:w-5/6  md:w-full m-auto px-16">
       <div className="bg-light rounded-t-3xl h-screen px-10 pt-6">
         <div className="flex justify-end items-center ">
           <a
@@ -15,10 +15,17 @@ const Imbox = () => {
             Write
           </a>
         </div>
-        <h2 className="text-light-grey m-auto text-center text-5xl font-bold">
+        <h2 className="text-off-white m-auto text-center text-5xl font-bold">
           Imbox
         </h2>
-        <Email />
+        <div className="px-4">
+          <Email
+            subject={"CS 6035 - Project 1 - Part 1 Released!"}
+            body={
+              "CS 6035 via Ed - Your instructor Christian Turner posted an announcement on Ed. Simply click t..."
+            }
+          />
+        </div>
       </div>
     </div>
   );
