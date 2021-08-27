@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import Emails from "./components/Emails/Emails";
+// import Image from "next/image";
+import Imbox from "./components/Imbox/Imbox";
 import Header from "./components/Header/Header";
 
 const Home: NextPage = () => {
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
       <main className="bg-dark">
         <Header />
-        <Emails />
+        <Imbox />
       </main>
     </div>
   );

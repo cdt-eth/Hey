@@ -2,7 +2,7 @@ import React from "react";
 import Email from "./Email";
 import { FiPlus as Plus } from "react-icons/fi";
 
-const Emails = () => {
+const Imbox = () => {
   return (
     <div className="lg:w-5/6  md:w-full m-auto px-10">
       <div className="bg-light rounded-t-3xl h-screen px-10 pt-6">
@@ -24,4 +24,4 @@ const Emails = () => {
   );
 };
 
-export default Emails;
+export default Imbox;
