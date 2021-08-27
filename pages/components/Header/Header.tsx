@@ -5,7 +5,7 @@ import User from "./User";
 
 const Header = () => {
   return (
-    <div className="lg:w-5/6  md:w-full py-2 px-2  m-auto flex items-stretch">
+    <div className="lg:px-24 md:w-full py-2 px-2 pb-10 m-auto flex items-stretch">
       <Search />
       <Menu />
       <User />
