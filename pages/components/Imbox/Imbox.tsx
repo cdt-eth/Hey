@@ -1,6 +1,7 @@
 import React from "react";
 import Email from "./Email";
 import { FiPlus as Plus } from "react-icons/fi";
+import NewForYou from "./NewForYou";
 
 const Imbox = () => {
   return (
@@ -15,9 +16,13 @@ const Imbox = () => {
             Write
           </a>
         </div>
+
         <h2 className="text-off-white m-auto text-center text-5xl font-bold">
           Imbox
         </h2>
+
+        <NewForYou />
+
         <div className="px-4">
           <Email
             subject={"CS 6035 - Project 1 - Part 1 Released!"}
