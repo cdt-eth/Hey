@@ -22,21 +22,23 @@ const Email = ({ subject, body, url }: Email) => {
   return (
     <div className="flex mb-5">
       <p className="text-unread self-center text-5xl">•</p>
+
       <Image
-        className="rounded-full self-center flex-1"
+        className="rounded-full self-center flex-1 w-12 h-12"
         src={`/${url}`}
         alt="me"
         width={50}
         height={50}
       />
+
       <div className="self-center px-2 max-w-full	w-5/6">
-        <p className="text-xl font-bold text-off-white truncate w-auto">
+        <p className="text-lg font-bold text-off-white truncate w-auto">
           {subject}
         </p>
-        <p className="text-light-grey w-auto truncate">{body}</p>
+        <p className="text-light-grey text-sm w-auto truncate">{body}</p>
       </div>
 
-      <p className="text-light-grey text-lg flex flex-1 items-center justify-end ">
+      <p className="text-light-grey text-md flex flex-1 items-center justify-end ">
         {now}
       </p>
     </div>
