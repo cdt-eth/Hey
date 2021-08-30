@@ -21,6 +21,9 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
     },
+    flex: {
+      img: "0 0 50px",
+    },
   },
   variants: {
     extend: {},
