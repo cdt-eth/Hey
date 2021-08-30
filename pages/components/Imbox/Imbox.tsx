@@ -7,8 +7,8 @@ import Write from "./Write";
 
 const Imbox = () => {
   return (
-    <div className="md:w-full m-auto  sm:px-5 lg:x-5 xl:w-5/6">
-      <div className="xs:bg-mid sm:bg-light sm:rounded-t-3xl pt-6">
+    <div className="md:w-full m-auto sm:px-5 lg:x-5 xl:w-5/6">
+      <div className="xs:bg-mid sm:bg-light sm:rounded-t-3xl sm:pt-6">
         {/* DESKTOP */}
         <div className="sm:flex justify-between items-center mx-6 xs:hidden">
           <Screener />

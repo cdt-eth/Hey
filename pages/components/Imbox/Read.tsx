@@ -5,7 +5,7 @@ const Read = () => {
   return (
     <div className="xs:bg-light sm:bg-mid pb-4">
       <div className="xs:px-2 sm:px-14">
-        <div className="pb-5 pt-8 text-off-white font-bold xs:text-xs sm:text-sm">
+        <div className="pb-5 pt-6 text-off-white font-bold xs:text-xs sm:text-sm">
           PREVIOUSLY SEEN
         </div>
         <Email

@@ -22,7 +22,7 @@ const Unread = () => {
         url="github.png"
         read={false}
       />
-      <Email
+      {/* <Email
         subject={"Square just requested your Coding Report!"}
         body={
           "CodeSignal - Sign in to take the test and share your Coding Report with Square . Square is waiting for your"
@@ -47,7 +47,7 @@ const Unread = () => {
         }
         url="user.jpg"
         read={false}
-      />
+      /> */}
     </div>
   );
 };
