@@ -1,5 +1,4 @@
 import React from "react";
-// import Email from "./Email";
 import NewForYou from "./NewForYou";
 import Read from "./Read";
 import Unread from "./Unread";

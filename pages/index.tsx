@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-// import Image from "next/image";
 import Imbox from "./components/Imbox/Imbox";
 import Header from "./components/Header/Header";
 
