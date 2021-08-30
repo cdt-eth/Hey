@@ -14,7 +14,7 @@ module.exports = {
       unread: "#FF8300",
     },
     screens: {
-      xs: "375px",
+      xs: "200px",
       sm: "640px",
       md: "768px",
       lg: "1024px",

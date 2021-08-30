@@ -24,7 +24,7 @@ const Imbox = () => {
         {/* MOBILE */}
         <div className="sm:hidden pt-4 flex justify-between items-center mx-3">
           <h2 className="text-off-white text-center font-bold text-3xl">
-            Imbox2
+            Imbox
           </h2>
           <Write />
         </div>

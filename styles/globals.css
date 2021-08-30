@@ -15,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 639px) {
   .test {
     flex-grow: 1;
   }
@@ -24,7 +24,7 @@ a {
   }
 }
 
-@media (min-width: 377px) {
+@media (min-width: 638px) {
   .third {
     flex: 1;
   }

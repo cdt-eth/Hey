@@ -4,7 +4,15 @@ import { IoSearch as SearchIcon } from "react-icons/io5";
 const Search = () => {
   return (
     <div className="flex items-center relative test sm:w-48">
-      <SearchIcon className="xs:text-light-grey sm:text-off-white xs:text-2xl sm:text-3xl absolute pl-2" />
+      <SearchIcon
+        className="
+        xs:text-light-grey
+          xs:text-2xl
+        sm:text-off-white
+          sm:text-3xl
+          absolute
+          pl-2"
+      />
       <input
         placeholder="Search"
         className="

@@ -21,10 +21,10 @@ const now = today
 
 const Email = ({ subject, body, url, read }: Email) => {
   return (
-    <div className="flex mb-5 xs:w-72 sm:w-full">
-      <div className="">
+    <div className="flex mb-5 xs:w-80 sm:w-full">
+      <div className="text-center">
         <p
-          className={`text-unread xs:text-xl sm:text-4xl md:text-5xl ${
+          className={`text-unread xs:text-3xl xs:pt-1 sm:pt-0 pr-2 sm:text-4xl md:text-5xl ${
             read ? "xs:hidden" : ""
           }`}
         >
