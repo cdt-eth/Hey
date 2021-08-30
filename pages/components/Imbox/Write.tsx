@@ -5,10 +5,10 @@ const Write = () => {
   return (
     <div>
       <a
-        className="text-bright flex items-center border-2 px-3 text-xl pl-1 py-1 rounded-full "
+        className="text-bright flex items-center border-2 px-3 xs:text-sm sm:text-xl pl-1 py-1 rounded-full "
         href="#"
       >
-        <Plus className="text-3xl center-items font-light pr-1 ml-1" />
+        <Plus className="xs:text-lg sm:text-3xl center-items font-light pr-1 ml-1" />
         Write
       </a>
     </div>
