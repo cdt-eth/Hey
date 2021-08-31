@@ -21,7 +21,7 @@ const now = today
 
 const Email = ({ subject, body, url, read }: Email) => {
   return (
-    <div className="flex mb-5 xs:w-10/12 sm:w-full">
+    <div className="flex mb-5 w-full">
       <div className="text-center">
         <p
           className={`text-unread xs:text-3xl xs:pt-1 sm:pt-0 pr-2 sm:text-4xl md:text-5xl ${
@@ -42,7 +42,7 @@ const Email = ({ subject, body, url, read }: Email) => {
         />
       </div>
 
-      <div className="self-center px-2 max-w-full	w-5/6">
+      <div className="self-center px-2 	w-4/6   flex-grow">
         <p className="sm:text-lg xs:text-sm xs:font-medium sm:font-bold text-off-white truncate w-auto">
           {subject}
         </p>
