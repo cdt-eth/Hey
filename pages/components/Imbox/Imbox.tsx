@@ -4,8 +4,12 @@ import Read from "./Read";
 import Unread from "./Unread";
 import Screener from "./Screener";
 import Write from "./Write";
+import { useState } from "react";
+import InboxZero from "./InboxZero";
 
 const Imbox = () => {
+  const [inboxZero, setInboxZero] = useState(false);
+
   return (
     <div className="md:w-full m-auto sm:px-5 lg:x-5 xl:w-5/6">
       <div className="xs:bg-mid sm:bg-light sm:rounded-t-3xl sm:pt-6">
@@ -36,7 +40,7 @@ const Imbox = () => {
 
         <NewForYou />
 
-        <Unread />
+        {inboxZero ? <Unread /> : <InboxZero />}
 
         <Read />
       </div>
