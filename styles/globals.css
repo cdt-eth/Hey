@@ -29,3 +29,8 @@ a {
     flex: 1;
   }
 }
+
+.input {
+  background: transparent !important;
+  border: none !important;
+}

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="bg-dark">
-        <Header />
+        <Header newEmail={false} />
         <Imbox />
       </main>
     </div>
