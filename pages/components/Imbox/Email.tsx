@@ -23,7 +23,7 @@ const now = today
 const Email = ({ subject, body, url, read }: Email) => {
   return (
     <Link href="#" passHref>
-      <div className="flex mb-5 w-full cursor-pointer">
+      <div className="flex w-full cursor-pointer p-3 hover:bg-email">
         <div className="text-center">
           <p
             className={`text-unread xs:text-3xl xs:pt-1 sm:pt-0 pr-2 sm:text-4xl md:text-5xl ${

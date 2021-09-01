@@ -12,6 +12,7 @@ module.exports = {
       "light-grey": "#A9ADB0",
       "dark-grey": "#9CA0A2",
       unread: "#FF8300",
+      email: "rgba(80, 162, 255, 0.05)",
     },
     screens: {
       xs: "200px",
