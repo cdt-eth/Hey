@@ -21,18 +21,20 @@ const New: NextPage = () => {
       <main className="bg-dark">
         <Header newEmail={true} />
 
-        <div className="md:w-full m-auto sm:px-5 lg:x-5 xl:w-5/6 pb-10">
-          <div className="xs:bg-mid sm:bg-light sm:rounded-3xl sm:pt-6 px-10 ">
-            {/* DESKTOP */}
+        <div className="md:w-full m-auto  sm:px-5 lg:x-5 xl:w-5/6 sm:pb-10">
+          <div
+            className="xs:bg-mid sm:bg-light sm:rounded-3xl sm:pt-6 
+          xs:px-3 sm:px-10 xs:h-screen"
+          >
             <h4 className="xs:hidden sm:block text-off-white m-auto text-center sm:text-xl lg:text-xl font-bold pb-8 pt-8">
               New Message
             </h4>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col sm:px-5">
               <form action="">
-                <div className="mb-5">
-                  <div className="flex flex-row items-center mb-3 text-off-white text-lg">
-                    <p className="mr-12">To</p>
+                <div className="mb-5 ">
+                  <div className="flex flex-row items-center xs:mb-1 sm:mb-3 text-off-white xs:text-sm sm:text-lg">
+                    <p className="xs:mr-3 sm:mr-12">To</p>
                     <input
                       className="input w-full mr-3 py-1 px-2  focus:outline-none"
                       type="text"
@@ -44,7 +46,7 @@ const New: NextPage = () => {
                 </div>
 
                 <div className="mb-5">
-                  <div className="flex flex-row items-center mb-3 text-off-white text-lg">
+                  <div className="flex flex-row items-center xs:mb-1 sm:mb-3 text-off-white xs:text-sm sm:text-lg ">
                     <p className="mr-2">Subject</p>
                     <input
                       className="input w-full mr-3 py-1 px-2  focus:outline-none"
@@ -55,11 +57,11 @@ const New: NextPage = () => {
                   <hr className="text-new" />
                 </div>
 
-                <div className="mb-5">
-                  <div className="flex flex-row items-center mb-3 text-off-white text-lg min-h-full h-58">
+                <div className="mb-5 ">
+                  <div className="flex flex-row items-center  text-off-white xs:text-sm sm:text-lg min-h-full h-58 ">
                     <textarea
                       placeholder="Type your message..."
-                      className="input align-top overflow-y-auto	 resize-none w-full mr-3 py-1 px-2  focus:outline-none"
+                      className="input align-top overflow-y-auto	 resize-none w-full mr-3 py-1  focus:outline-none"
                       name="subject"
                       rows={7}
                     />
@@ -68,7 +70,7 @@ const New: NextPage = () => {
               </form>
             </div>
 
-            <div className="flex flex-row py-10">
+            <div className="xs:hidden sm:flex flex-row py-10">
               <div className="flex-grow ">
                 <button className="cursor-pointer mr-2 bg-bright text-dark font-bold rounded-full p-2 px-4">
                   Send Email
