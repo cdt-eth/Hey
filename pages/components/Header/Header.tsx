@@ -2,11 +2,16 @@ import React from "react";
 import Search from "./Search";
 import Menu from "./Menu";
 import User from "./User";
+import Link from "next/link";
 
-const Header = () => {
+interface HeaderProps {
+  newEmail: boolean;
+}
+
+const Header = ({ newEmail }: HeaderProps) => {
   return (
     <div
-      className="
+      className={`
         xs:px-4
         xs:pb-px
         xs:pt-2
@@ -21,8 +26,19 @@ const Header = () => {
         flex
         items-stretch
         justify-between
-        "
+        `}
+      // sm:pl-${paddingLeft}
+      // lg:pl-${paddingLeft}
     >
+      {newEmail && (
+        <Link href="/" passHref>
+          <button className=" bg-off-white text-dark px-5 mr-2 font-semibold text-lg rounded-full">
+            {" "}
+            {"< Imbox"}{" "}
+          </button>
+        </Link>
+      )}
+
       <div className="third one xs:self-center">
         <Search />
       </div>
