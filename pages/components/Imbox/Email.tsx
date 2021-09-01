@@ -44,7 +44,7 @@ const Email = ({ subject, body, url, read }: Email) => {
           />
         </div>
 
-        <div className="self-center px-2 	w-4/6   flex-grow">
+        <div className="self-center px-2 w-4/6 flex-grow">
           <p className="sm:text-lg xs:text-sm xs:font-medium sm:font-bold text-off-white truncate w-auto">
             {subject}
           </p>
@@ -53,7 +53,7 @@ const Email = ({ subject, body, url, read }: Email) => {
           </p>
         </div>
 
-        <p className="text-light-grey xs:text-xs sm:text-md flex items-center justify-end ">
+        <p className="text-light-grey xs:text-xs sm:text-sm flex items-center justify-end ">
           {now}
         </p>
       </div>
